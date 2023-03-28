@@ -1,0 +1,32 @@
+h1{
+    color:red;
+  }
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightsalmon;
+    padding-left:50%;
+    font-Size:30px;
+    font-family:serif;
+    border:20px ridge darkgoldenrod;
+}
+.header:hover h1{
+    background-color:blueviolet;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+}
+.footer{
+    display:flex;
+    justify-content: flex-start;
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color:#ffd000
+}
+
